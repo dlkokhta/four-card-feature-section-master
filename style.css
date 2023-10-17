@@ -1,0 +1,332 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+:root {
+    --background:#fafafa;
+    --text-color: #4D4F62;
+    --red: #EA5454;
+    --green:#44D3D2;
+    --orange: #FCAE4A;
+    --blue: #549EF2;
+
+} 
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background);
+    padding: 85px 32px 78px 32px ;
+    text-align: center;
+}
+
+.title-1 {
+    font-size: 24px;
+    font-weight: 275;
+    line-height: 36px;
+    letter-spacing: 0.17;
+    color: var(--text-color);
+}
+
+.title-2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: var(--text-color);
+}
+
+.about {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: var(--text-color);
+    margin-top: 13px;
+    opacity: 50%;
+}
+
+/* green-card */
+
+.green-card {
+    width: 100%;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-radius: 8px;
+    background: #FFFFFF;
+    margin-top: 76px;
+    overflow: hidden;
+}
+    
+   
+
+.green-card-content {
+    padding: 23.5px 28px 28px 28px;
+    display: flex;
+    flex-direction: column;
+}
+
+.green-card-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: var(--text-color);
+    text-align: left;
+}
+
+.green-card-description {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    color: var(--text-color);
+    opacity: 50%;
+    text-align: left;
+}
+
+.green-card-icon {
+    width: 57px;
+    height: 57px;
+    margin-top: 33px;
+    margin-left: auto;
+}
+ 
+.green-border {
+    width: 100%;
+    height: 3.5px;
+    background-color: var(--green);
+    
+}
+
+
+/* red-card */
+
+.red-card {
+    width: 100%;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-radius: 8px;
+    background: #FFFFFF;
+    margin-top: 25px;
+    overflow: hidden;
+}
+    
+   
+   
+
+.red-card-content {
+    padding: 23.5px 28px 28px 28px;
+    display: flex;
+    flex-direction: column;
+}
+
+.red-card-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: var(--text-color);
+    text-align: left;
+}
+
+.red-card-description {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    color: var(--text-color);
+    opacity: 50%;
+    text-align: left;
+}
+
+.red-card-icon {
+    width: 57px;
+    height: 57px;
+    margin-top: 33px;
+    margin-left: auto;
+}
+ 
+.red-border {
+    width: 100%;
+    height: 3.5px;
+    background-color: var(--red);
+   
+}
+
+
+/* orange-card */
+
+.orange-card {
+    width: 100%;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-radius: 8px;
+    background: #FFFFFF;
+    margin-top: 23px;
+    overflow: hidden;
+}
+    
+   
+   
+
+.orange-card-content {
+    padding: 23.5px 28px 28px 28px;
+    display: flex;
+    flex-direction: column;
+}
+
+.orange-card-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: var(--text-color);
+    text-align: left;
+}
+
+.orange-card-description {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    color: var(--text-color);
+    opacity: 50%;
+    text-align: left;
+}
+
+.orange-card-icon {
+    width: 57px;
+    height: 57px;
+    margin-top: 33px;
+    margin-left: auto;
+}
+ 
+.orange-border {
+    width: 100%;
+    height: 3.5px;
+    background-color: var(--orange);
+    
+}
+
+
+/* blue-card */
+
+.blue-card {
+    width: 100%;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-radius: 8px;
+    background: #FFFFFF;
+    margin-top: 24px;
+    overflow: hidden;
+}
+    
+   
+   
+
+.blue-card-content {
+    padding: 23.5px 28px 28px 28px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blue-card-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: var(--text-color);
+    text-align: left;
+}
+
+.blue-card-description {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    color: var(--text-color);
+    opacity: 50%;
+    text-align: left;
+}
+
+.blue-card-icon {
+    width: 57px;
+    height: 57px;
+    margin-top: 33px;
+    margin-left: auto;
+}
+ 
+.blue-border {
+    width: 100%;
+    height: 3.5px;
+    background-color: var(--blue);
+   
+}
+
+
+
+@media (min-width: 768px ){
+
+    .green-card {
+        width: 350px;
+        height: 250px;
+    }
+
+    .red-card {
+        width: 350px;
+        height: 250px;
+     }
+
+     .orange-card {
+        width: 350px;
+        height: 250px;
+     }
+
+     .blue-card {
+        width: 350px;
+        height: 250px;
+     }
+     body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+}
+
+
+
+@media (min-width: 1440px) {
+
+    body {
+        padding-top: 80px;
+    }
+
+    .about {
+        width: 540px;
+    }
+
+    
+
+    .title-1, .title-2 {
+        font-size: 36px;
+        line-height: 54px;
+        letter-spacing: 0.25px;
+        
+    }
+
+    .card-section {
+        display: flex;
+        column-gap: 30px;
+
+    }
+
+    .green-card, .blue-card {
+       margin-top:  204px;
+    }
+
+    .red-orange-section {
+        margin-top: 64px;
+    }
+    
+}
+
+
+
+
+
+
+
